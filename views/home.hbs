@@ -1,0 +1,63 @@
+<div class="container">
+     <div class="text">
+            <p><b>Product List</b></p>
+        </div>
+        <div class="engine">
+            <div class="search-engine">
+                <div class="form-group size">
+                    <input type="text" placeholder="Keyword" class="form-control" id="usr">
+                </div>
+                <div class="form-group size">
+                    <select aria-placeholder="categories" class="form-control" id="sel1">
+                      <option>Category 1</option>
+                      <option>Category 2</option>
+                      <option>Category 3</option>
+                      <option>Category 4</option>
+                    </select>
+                </div>
+            </div>
+            <div class="btn-div">
+                <button type="button" class="btn btn-primary">Search</button>
+                <button type="button" class="btn btn-primary">Add product</button>
+            </div>
+        </div>
+        <div class="table">
+            <table border="2">
+                <tr>
+                    <th>Index</th>
+                    <th>Name</th>
+                    <th>Categories</th>
+                    <th>Action</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Product 1</td>
+                    <td>Category 1</td>
+                    <td>
+                        <a href="/create">edit</a>
+                        <a href="" style="margin-left: 15px;">delete</a>
+                    </td>                  
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Product 2</td>
+                    <td>Category 2</td>
+                    <td>
+                        <a href="">edit</a>
+                        <a href="" style="margin-left: 15px;">delete</a>
+                    </td>                  
+                </tr>
+            </table>
+        </div>
+        <div class="pagination">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                  <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                </ul>
+              </nav>
+        </div>
+</div>
